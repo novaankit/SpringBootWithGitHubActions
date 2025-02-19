@@ -8,6 +8,6 @@ public class HelloController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Deploying our Spring Boot Application on Azure using GitHub Actions";
+		return "Deployed our Spring Boot Application on Azure using GitHub Actions";
 	}
 }
